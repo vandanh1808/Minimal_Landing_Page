@@ -1,0 +1,88 @@
+/* === RESET CSS === */
+
+/* Box sizing: border-box cho toàn bộ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Reset margin, padding, font */
+html,
+body {
+	font-family: var(--font-family-default, sans-serif);
+	font-weight: var(--font-regular, 400);
+	line-height: 1.5;
+	color: inherit;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default heading margin */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+/* Remove list styles */
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Remove default anchor style */
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Normalize button */
+button {
+	border: none;
+	background: none;
+	font: inherit;
+	color: inherit;
+	padding: 0;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+/* Normalize input, textarea */
+input,
+textarea,
+select {
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+/* Reset image */
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Prevent iOS text size adjust */
+html {
+	-webkit-text-size-adjust: 100%;
+}
