@@ -1,120 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles/reset.css" />
-		<link rel="stylesheet" href="styles/variables.css" />
-		<link rel="stylesheet" href="styles/typography.css" />
-		<link rel="stylesheet" href="styles/button.css" />
-		<link rel="stylesheet" href="styles/components.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-			rel="stylesheet"
-		/>
-		<title>Minimal Landing Page</title>
-	</head>
-	<body>
-		<header>
-			<div class="container header">
-				<div class="header__logo">
-					<img src="/assets/Logo.png" alt="Logo" />
-				</div>
-				<div class="header__right">
-					<nav class="header__nav body-2">
-						<a class="header__nav__item" href="#"> Home </a>
-						<a class="header__nav__item" href="#feature">
-							Feature
-						</a>
-						<a class="header__nav__item" href="#community">
-							Community
-						</a>
-						<a class="header__nav__item" href="#blog"> Blog </a>
-						<a class="header__nav__item" href="#price"> Price </a>
-					</nav>
-					<button class="btn btn-primary btn-small register__btn">
-						Register Now
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-							/>
-						</svg>
-					</button>
-				</div>
-			</div>
-		</header>
-		<section id="banner">
-			<div class="container banner__content">
-				<div class="banner__left">
-					<h1 class="h1">
-						Lessons and insights<br /><span>from 8 years</span>
-					</h1>
-					<p class="body-2">
-						Where to grow your business as a photographer: site or
-						social media?
-					</p>
-					<button class="btn btn-primary btn-normal">Register</button>
-				</div>
-				<div class="banner__right">
-					<img src="/assets/Illustration.png" alt="banner" />
-				</div>
-			</div>
-		</section>
-		<section id="client">
-			<div class="container">
-				<div class="client__header">
-					<h3 class="section__title">Our Clients</h3>
-					<p class="section__description body-4">
-						We have been working with some Fortune 500+ clients
-					</p>
-				</div>
-				<div class="client__items">
-					<div class="client__item">
-						<img src="/assets/Client-1.png" alt="Client-1" />
-					</div>
-					<div class="client__item">
-						<img src="/assets/Client-2.png" alt="Client-2" />
-					</div>
-					<div class="client__item">
-						<img src="/assets/Client-3.png" alt="Client-3" />
-					</div>
-					<div class="client__item">
-						<img src="/assets/Client-4.png" alt="Client-4" />
-					</div>
-					<div class="client__item">
-						<img src="/assets/Client-5.png" alt="Client-5" />
-					</div>
-					<div class="client__item">
-						<img src="/assets/Client-6.png" alt="Client-6" />
-					</div>
-					<div class="client__item">
-						<img src="/assets/Client-7.png" alt="Client-7" />
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="community">
-			<div class="container">
-				<div class="community__header">
-					<h3 class="section__title">
-						Manage your entire community
-						<span>in a single system</span>
-					</h3>
-					<p class="section__description body-4">
-						Who is Nextcent suitable for?
-					</p>
-				</div>
-			</div>
-		</section>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/typography.css" />
+    <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Minimal Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <div class="header__logo">
+          <img src="/assets/Logo.png" alt="Logo" />
+        </div>
+        <div class="header__right">
+          <nav class="header__nav body-2">
+            <a class="header__nav__item" href="#"> Home </a>
+            <a class="header__nav__item" href="#feature"> Feature </a>
+            <a class="header__nav__item" href="#community"> Community </a>
+            <a class="header__nav__item" href="#blog"> Blog </a>
+            <a class="header__nav__item" href="#price"> Price </a>
+          </nav>
+          <button class="btn btn-primary btn-small register__btn">
+            Register Now
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section id="banner">
+      <div class="container banner__content">
+        <div class="banner__left">
+          <h1 class="h1">
+            Lessons and insights<br /><span>from 8 years</span>
+          </h1>
+          <p class="body-2">
+            Where to grow your business as a photographer: site or social media?
+          </p>
+          <button class="btn btn-primary btn-normal">Register</button>
+        </div>
+        <div class="banner__right">
+          <img src="/assets/Illustration.png" alt="banner" />
+        </div>
+      </div>
+    </section>
+    <section id="client">
+      <div class="container">
+        <div class="client__header">
+          <h3 class="section__title">Our Clients</h3>
+          <p class="section__description body-3">
+            We have been working with some Fortune 500+ clients
+          </p>
+        </div>
+        <div class="client__items">
+          <div class="client__item">
+            <img src="/assets/Client-1.png" alt="Client-1" />
+          </div>
+          <div class="client__item">
+            <img src="/assets/Client-2.png" alt="Client-2" />
+          </div>
+          <div class="client__item">
+            <img src="/assets/Client-3.png" alt="Client-3" />
+          </div>
+          <div class="client__item">
+            <img src="/assets/Client-4.png" alt="Client-4" />
+          </div>
+          <div class="client__item">
+            <img src="/assets/Client-5.png" alt="Client-5" />
+          </div>
+          <div class="client__item">
+            <img src="/assets/Client-6.png" alt="Client-6" />
+          </div>
+          <div class="client__item">
+            <img src="/assets/Client-7.png" alt="Client-7" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="community">
+      <div class="container">
+        <div class="community__header">
+          <h3 class="section__title">
+            Manage your entire community
+            <span>in a single system</span>
+          </h3>
+          <p class="section__description body-3">
+            Who is Nextcent suitable for?
+          </p>
+        </div>
+        <div class="community__content">
+          <div class="community__item">
+            <div class="community__item__img">
+              <img src="/assets/Community-1.png" alt="Community-1" />
+            </div>
+            <div class="commnuity__item__content">
+              <h4 class="h4">Membership Organisations</h4>
+              <p class="body-4">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
+          <div class="community__item">
+            <div class="community__item__img">
+              <img src="/assets/Community-2.png" alt="Community-2" />
+            </div>
+            <div class="commnuity__item__content">
+              <h4 class="h4">National Associations</h4>
+              <p class="body-4">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
+          <div class="community__item">
+            <div class="community__item__img">
+              <img src="/assets/Community-3.png" alt="Community-3" />
+            </div>
+            <div class="commnuity__item__content">
+              <h4 class="h4">Clubs And Groups</h4>
+              <p class="body-4">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container about__content">
+        <div class="about__img">
+          <img src="/assets/rafiki.png" alt="rafiki" />
+        </div>
+        <div class="about__info">
+          <h3 class="h3">The unseen of spending three years at Pixelgrade</h3>
+          <p class="body-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+            Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+            elementum pulvinar odio.
+          </p>
+          <button class="btn btn-primary btn-small">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <section class="statistics">
+      <div class="container statistics__content">
+        <div class="statistics__title">
+          <h3 class="section__title">
+            Helping a local<br />
+            <span>business reinvent itself</span>
+          </h3>
+          <p class="section__description body-3">
+            We reached here with our hard work and dedication
+          </p>
+        </div>
+        <div class="statistics__info">
+          <div class="statistics__item">
+            <div class="statistics__item_icon">
+              <img src="/assets/Member.png" alt="Member" />
+            </div>
+            <div class="statistics__right">
+              <h3 class="h3">2,245,341</h3>
+              <p class="body-3">Members</p>
+            </div>
+          </div>
+          <div class="statistics__item">
+            <div class="statistics__item_icon">
+              <img src="/assets/Club.png" alt="Club" />
+            </div>
+            <div class="statistics__right">
+              <h3 class="h3">46,328</h3>
+              <p class="body-3">Clubs</p>
+            </div>
+          </div>
+          <div class="statistics__item">
+            <div class="statistics__item_icon">
+              <img src="/assets/Booking.png" alt="Booking" />
+            </div>
+            <div class="statistics__right">
+              <h3 class="h3">828,867</h3>
+              <p class="body-3">Event Bookings</p>
+            </div>
+          </div>
+          <div class="statistics__item">
+            <div class="statistics__item_icon">
+              <img src="/assets/Payment.png" alt="Payment" />
+            </div>
+            <div class="statistics__right">
+              <h3 class="h3">1,926,436</h3>
+              <p class="body-3">Payments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="design">
+      <div class="container design__content">
+        <div class="design__img">
+          <img src="/assets/pana.png" alt="pana" />
+        </div>
+        <div class="design__info">
+          <h3 class="h3">How to design your site footer like we did</h3>
+          <p class="body-4">
+            Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
+            augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
+            elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
+            habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi
+            facilisis finibus. In euismod augue vitae nisi ultricies, non
+            aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus
+            efficitur quis massa. Praesent felis est, finibus et nisi ac,
+            hendrerit venenatis libero. Donec consectetur faucibus ipsum id
+            gravida.
+          </p>
+          <button class="btn btn-primary btn-small">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <section id="customer">
+      <div class="container customer__content">
+        <div class="customer__left">
+          <img src="/assets/Customer.png" alt="Customer" />
+        </div>
+        <div class="customer__right">
+          <p class="body-3">
+            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+            lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
+            enim metus. Vivamus sed libero ornare, tristique quam in, gravida
+            enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit
+            at ligula molestie, nec molestie mi blandit. Suspendisse cursus
+            tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse
+            eget lorem eu turpis vestibulum pretium. Suspendisse potenti.
+            Quisque malesuada enim sapien, vitae placerat ante feugiat eget.
+            Quisque vulputate odio neque, eget efficitur libero condimentum id.
+            Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+          </p>
+          <h5>Tim Smith</h5>
+          <span class="body-3">British Dragon Boat Racing Association</span>
+          <div class="customer__list">
+            <div class="customer__item">
+              <img src="/assets/Customer-1.png" alt="Customer-1" />
+            </div>
+            <div class="customer__item">
+              <img src="/assets/Customer-2.png" alt="Customer-2" />
+            </div>
+            <div class="customer__item">
+              <img src="/assets/Customer-3.png" alt="Customer-3" />
+            </div>
+            <div class="customer__item">
+              <img src="/assets/Customer-4.png" alt="Customer-4" />
+            </div>
+            <div class="customer__item">
+              <img src="/assets/Customer-5.png" alt="Customer-5" />
+            </div>
+            <div class="customer__item">
+              <img src="/assets/Customer-6.png" alt="Customer-6" />
+            </div>
+            <button class="btn btn-link customer__btn">
+              Meet all customers
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="marketing">
+      <div class="container">
+        <div class="marketing__header">
+          <h3 class="section__title">Caring is the new marketing</h3>
+          <p class="section__description body-3">
+            The Nextcent blog is the best place to read about the latest
+            membership insights, trends and more. See who's joining the
+            community, read about how our community are increasing their
+            membership income and lot's more.​
+          </p>
+        </div>
+        <div class="marketing__content">
+          <div class="marketing__item">
+            <div class="marketing__item__img">
+              <img src="/assets/Marketing-1.png" alt="Marketing-1" />
+            </div>
+            <div class="marketing__item__content">
+              <h4 class="h4">
+                Creating Streamlined Safeguarding Processes with OneRen
+              </h4>
+              <button class="btn btn-link marketing__item__btn">
+                Readmore
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="marketing__item">
+            <div class="marketing__item__img">
+              <img src="/assets/Marketing-2.png" alt="Marketing-2" />
+            </div>
+            <div class="marketing__item__content">
+              <h4 class="h4">
+                What are your safeguarding responsibilities and how can you
+                manage them?
+              </h4>
+              <button class="btn btn-link marketing__item__btn">
+                Readmore
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="marketing__item">
+            <div class="marketing__item__img">
+              <img src="/assets/Marketing-3.png" alt="Marketing-3" />
+            </div>
+            <div class="marketing__item__content">
+              <h4 class="h4">
+                Revamping the Membership Model with Triathlon Australia
+              </h4>
+              <button class="btn btn-link marketing__item__btn">
+                Readmore
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="demo">
+      <div class="container demo__content">
+        <h2 class="h1">
+          Pellentesque suscipit<br />
+          fringilla libero eu.
+        </h2>
+        <button class="btn btn-primary btn-normal">
+          Get a Demo
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer__content">
+        <div class="footer_column">
+          <img src="/assets/Logo_Dark.png" alt="Logo" class="footer__logo" />
+          <div class="footer__copyright body-4">
+            <p>Copyright © 2020 Landify UI Kit.</p>
+            <p>All rights reserved</p>
+          </div>
+          <div class="footer_socials">
+            <div class="footer__social__item">
+              <img src="/assets/Social_Icons.png" alt="Instagram" />
+            </div>
+            <div class="footer__social__item">
+              <img src="/assets/Social_Icons-1.png" alt="Dribble" />
+            </div>
+            <div class="footer__social__item">
+              <img src="/assets/Social_Icons-2.png" alt="X" />
+            </div>
+            <div class="footer__social__item">
+              <img src="/assets/Social_Icons-3.png" alt="Youtube" />
+            </div>
+          </div>
+        </div>
+        <div class="footer_column">
+          <div class="footer__title body-1">Company</div>
+          <div class="footer__body">
+            <p class="body-3">About us</p>
+            <p class="body-3">Blog</p>
+            <p class="body-3">Contact us</p>
+            <p class="body-3">Pricing</p>
+            <p class="body-3">Testimonials</p>
+          </div>
+        </div>
+        <div class="footer_column">
+          <div class="footer__title body-1">Support</div>
+          <div class="footer__body">
+            <p class="body-3">Help center</p>
+            <p class="body-3">Terms of service</p>
+            <p class="body-3">Legal</p>
+            <p class="body-3">Privacy policy</p>
+            <p class="body-3">Status</p>
+          </div>
+        </div>
+        <div class="footer_column">
+          <div class="footer__title body-1">Stay up to date</div>
+          <div class="footer__input">
+            <input type="text" placeholder="Your email address" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
